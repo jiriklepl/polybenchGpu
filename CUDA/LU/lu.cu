@@ -27,7 +27,7 @@
 
 #define GPU_DEVICE 0
 
-#define RUN_ON_CPU
+// #define RUN_ON_CPU
 
 
 void lu(int n, DATA_TYPE POLYBENCH_2D(A,N,N,n,n))

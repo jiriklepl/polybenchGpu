@@ -32,7 +32,7 @@
 #define ALPHA 32412.0f
 #define BETA 2123.0f
 
-#define RUN_ON_CPU
+// #define RUN_ON_CPU
 
 
 void gemm(int ni, int nj, int nk, DATA_TYPE alpha, DATA_TYPE beta, DATA_TYPE POLYBENCH_2D(A,NI,NK,ni,nk), 

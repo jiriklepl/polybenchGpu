@@ -30,7 +30,7 @@
 #define TSTEPS 20
 #define N 1000
 
-#define RUN_ON_CPU
+// #define RUN_ON_CPU
 
 
 void init_array(int n, DATA_TYPE POLYBENCH_2D(A,N,N,n,n), DATA_TYPE POLYBENCH_2D(B,N,N,n,n))

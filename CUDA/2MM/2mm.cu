@@ -27,7 +27,7 @@
 
 #define GPU_DEVICE 0
 
-#define RUN_ON_CPU
+// #define RUN_ON_CPU
 
 
 void init_array(int ni, int nj, int nk, int nl, DATA_TYPE *alpha, DATA_TYPE *beta, DATA_TYPE POLYBENCH_2D(A, NI, NK, ni, nk), 
