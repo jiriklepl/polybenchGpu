@@ -32,9 +32,9 @@
 #  endif
 
 #  ifdef STANDARD_DATASET /* Default if unspecified. */
-#define NI 512
-#define NJ 512
-#define NK 512
+# define NI 5000
+# define NJ 5300
+# define NK 5600
 #  endif
 
 #  ifdef LARGE_DATASET

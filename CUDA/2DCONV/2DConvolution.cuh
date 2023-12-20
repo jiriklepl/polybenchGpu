@@ -30,8 +30,8 @@
 #  endif
 
 #  ifdef STANDARD_DATASET /* Default if unspecified. */
-#define NI 4096
-#define NJ 4096
+#define NI 40000
+#define NJ 43000
 #  endif
 
 #  ifdef LARGE_DATASET
