@@ -153,7 +153,7 @@ void gemmCuda(int ni, int nj, int nk, DATA_TYPE alpha, DATA_TYPE beta, DATA_TYPE
 	cudaMemcpy(C_gpu, C, sizeof(DATA_TYPE) * NI * NJ, cudaMemcpyHostToDevice);
 	
 	dim3 block(DIM_THREAD_BLOCK_X, DIM_THREAD_BLOCK_Y);
-	dim3 grid((size_t)(ceil( ((float)NI)/ ((float)block.x) )),(size_t)(ceil( ((float)NJ)/ ((float)block.y) )));
+	dim3 grid((size_t)(ceil( ((float)NJ)/ ((float)block.x) )),(size_t)(ceil( ((float)NI)/ ((float)block.y) )));
 
 	/* Start timer. */
   	polybench_start_instruments;

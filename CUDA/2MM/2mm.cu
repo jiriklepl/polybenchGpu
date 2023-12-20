@@ -131,7 +131,7 @@ __global__ void mm2_kernel2(int ni, int nj, int nk, int nl, DATA_TYPE alpha, DAT
 		int k;
 		for (k = 0; k < _PB_NJ; k++)
 		{
-			D[i * NL + j] += tmp[i * NJ + k] * C[j * NL + k];
+			D[i * NL + j] += tmp[i * NJ + k] * C[j * NJ + k];
 		}
 	}
 }

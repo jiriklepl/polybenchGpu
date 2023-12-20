@@ -34,10 +34,10 @@
 #  endif
 
 #  ifdef STANDARD_DATASET /* Default if unspecified. */
-# define NI 10000
-# define NJ 12000
-# define NK 13000
-# define NL 16000
+# define NI 5000
+# define NJ 5200
+# define NK 5300
+# define NL 5600
 #  endif
 
 #  ifdef LARGE_DATASET
