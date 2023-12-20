@@ -175,7 +175,7 @@ void gramschmidtCuda(int ni, int nj, DATA_TYPE POLYBENCH_2D(A,NI,NJ,ni,nj), DATA
 {
 	dim3 block(DIM_THREAD_BLOCK_X, DIM_THREAD_BLOCK_Y);
 	dim3 gridKernel1(1, 1);
-	dim3 gridKernel2((size_t)ceil(((float)NJ) / ((float)DIM_THREAD_BLOCK_X)), 1);
+	dim3 gridKernel2((size_t)ceil(((float)NI) / ((float)DIM_THREAD_BLOCK_X)), 1);
 	dim3 gridKernel3((size_t)ceil(((float)NJ) / ((float)DIM_THREAD_BLOCK_X)), 1);
 	
 	DATA_TYPE *A_gpu;
